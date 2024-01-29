@@ -1,0 +1,110 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Luciana Castelucci",
+            "photo": null,
+            "age": null,
+            "eyeColor": "Brown",
+            "species": "Vampire",
+            "notes": [
+                {
+                    "id": 1,
+                    "title": "Job",
+                    "content": "She works as an Italian actress.",
+                    "dateCreated": "1/28/2024",
+                    "dateModified": "1/28/2024"
+                }
+            ],
+            "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/luciana-castelucci-vibes/"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Clyde Fernsborough",
+            "photo": null,
+            "age": 59,
+            "eyeColor": "Brown",
+            "species": "Vampire",
+            "notes": [
+            ],
+            "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/doctor-clyde-vibes/"
+        },
+        {
+            "id": 3,
+            "name": "Izabel Ramirez",
+            "photo": null,
+            "age": 22,
+            "eyeColor": "Brown",
+            "species": "Human",
+            "notes": [
+                {
+                    "id": 1,
+                    "title": "Some Facts",
+                    "content": "Likes mochi, Very social",
+                    "dateCreated": "1/28/2022",
+                    "dateModified": "1/28/2022"
+                },
+                {
+                    "id": 2,
+                    "title": "Some More Facts",
+                    "content": "Lives in a trailer, Loves to travel, Nickname: Iz",
+                    "dateCreated": "1/4/2023",
+                    "dateModified": "1/4/2023"
+                },
+                {
+                    "id": 3,
+                    "title": "Last One",
+                    "content": "Works as a mercenary for hire",
+                    "dateCreated": "11/5/2023",
+                    "dateModified": "11/6/2023"
+                }
+            ],
+            "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/izabel-vibes/"
+        },
+        {
+            "id": 4,
+            "name": "Arwin Langford",
+            "photo": null,
+            "age": 126,
+            "eyeColor": "Brown",
+            "species": "Vampire",
+            "notes": [
+                {
+                    "id": 1,
+                    "title": "Work",
+                    "content": "Mr. Langford's specific business ventures vary, but includes international trade, shipping, and middleman-like ventures. Arwin's base of operations is a rather old English townhouse in London, England, but since he is a teleporting vampire he also owns many homes throughout the world. They are mostly used to hide from the law, as monetary investments, or to host business partners as guests.",
+                    "dateCreated": "1/3/2019",
+                    "dateModified": "11/10/2020"
+                },
+                {
+                    "id": 2,
+                    "title": "Crystal Necklace",
+                    "content": "The ancient crystal necklace that Arwin wears actually belongs to the Castelucci family (Maximus's family) and has special powers. The possession of this priceless necklace has been the subject of conflict for years and is one the many pieces of Castelucci treasure that exists.",
+                    "dateCreated": "1/3/2019",
+                    "dateModified": "11/10/2023"
+                }
+            ],
+            "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/arwin-langford-vibes/"
+        },
+        {
+            "id": 5,
+            "name": "Seville Livin/Esteban Rodriguez",
+            "photo": null,
+            "age": null,
+            "eyeColor": "Brown",
+            "species": "Vampire",
+            "notes": [
+                {
+                    "id": 1,
+                    "title": "Short Bio",
+                    "content": "When Esteban starting working Arwin Langford, he was quiet and hard-working human working with a group of dangerous vampires. Nevertheless, Esteban always got the job done for Arwin and his progeny Lance and Norman. Not much else could be said about Esteban until a year and a half later when Lance decided to turn them into a vampire. It was after that the Lance learned of Esteban's true identity and purpose at the Langford residence. Esteban was actually Seville, a Russian Region Intelligence Agent, whose purpose was to gather information. Seville was much different than Esteban. She was dangerous, deceitful, and clever.",
+                    "dateCreated": "12/1/2023",
+                    "dateModified": "12/5/2023"
+                }
+            ],
+            "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/sevilleestebanmrs-livin-vibes/"
+        }
+
+    ]
+
+}
