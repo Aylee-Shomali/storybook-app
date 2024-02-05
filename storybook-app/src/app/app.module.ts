@@ -3,8 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CharacterListComponent } from './characterList/characterList.component';
 
-import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+import { IconsModule } from "@progress/kendo-angular-icons";
 import { LayoutModule } from '@progress/kendo-angular-layout';
 import { ButtonsModule } from "@progress/kendo-angular-buttons";
 import { NavigationModule } from "@progress/kendo-angular-navigation";
@@ -12,18 +13,19 @@ import { InputsModule } from '@progress/kendo-angular-inputs';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CharacterListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DateInputsModule,
     LayoutModule,
     ButtonsModule,
     NavigationModule,
     InputsModule,
+    IconsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent, CharacterListComponent]
 })
 export class AppModule { }

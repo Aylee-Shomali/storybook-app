@@ -1,14 +1,15 @@
-ul {
-    font-size: 14px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  li {
-    margin: 0 9px;
-  }
-  li:hover {
-    cursor: pointer;
-    color: #d6002f;
-  }
+/*
+.k-appbar-light {
+  background: rgb(246,248,252);
+  background: linear-gradient(45deg, rgba(246,248,252,1) 0%, rgba(186,203,233,1) 32%, rgba(30,187,224,1) 100%);
+  
+}
+*/
+.content{
+  margin-left: 10px;
+}
+
+.title {
+  font-family: 'Playfair Display', 'Times New Roman', 'serif';
+  font-weight: lighter;
+}

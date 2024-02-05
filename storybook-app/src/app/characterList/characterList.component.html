@@ -1,0 +1,30 @@
+  <h1>Your Characters:</h1>
+  <div class="card-container">
+  <ng-container *ngFor="let character of characterData">
+    <kendo-card width="270px">
+      <kendo-card-header class="k-hstack">
+        <kendo-avatar
+              width="230px"
+              height="230px"
+              [imageSrc]="thumbnailSrc"
+              shape="circle"
+            >
+          </kendo-avatar>
+        </kendo-card-header>
+        <kendo-card-body>
+          <h1 kendoCardTitle>{{ character.name }}</h1>
+          <div class="centered-container">
+            <button kendoButton size="large" rounded="large" themeColor="dark" fillMode="outline">View</button>
+          </div>
+        </kendo-card-body>
+        <kendo-card-actions orientation="horizontal" layout="stretched">
+          <ng-container *ngIf="character.notes.length > 0">
+            <p> <span class="k-icon k-font-icon k-i-dictionary-add"></span> {{ character.notes.length }}</p>
+            <p *ngIf="character.notes.length == 1; else pluralNote">Note</p>
+            <ng-template #pluralNote><p>Notes</p></ng-template>
+          </ng-container>
+          <p *ngIf="character.pinterestBoardURL != null"> <span class="k-icon k-font-icon k-i-pinterest"></span></p>
+        </kendo-card-actions>
+    </kendo-card>
+  </ng-container>
+  </div>
