@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { characters } from '../../../characterData.json';
 
 @Component({
-  selector: 'character-list',
-  templateUrl: './characterList.component.html',
-  styleUrl: './characterList.component.css'
+  selector: 'characterList',
+  templateUrl: './character-list.component.html',
+  styleUrl: './character-list.component.css'
 })
 export class CharacterListComponent {
   public thumbnailSrc =
