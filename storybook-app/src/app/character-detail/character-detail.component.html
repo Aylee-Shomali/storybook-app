@@ -1,1 +1,57 @@
-<p>character-detail works!</p>
+<div class="detail-content">
+    <div class="character-detail-header">
+        <kendo-avatar
+                  width="280px"
+                  height="280px"
+                  [imageSrc]="thumbnailSrc"
+                  shape="circle"
+                >
+        </kendo-avatar>
+        <h1>{{characterData[2].name}}</h1>
+    </div>
+    <h1>Basic Facts:</h1>
+    <div class="fact-list-element">
+        <div class="fact-list-key">
+            <p>Age</p>
+        </div>
+        <div class="fact-list-value">
+            <p>{{characterData[2].age}}</p>
+        </div>
+    </div>
+    <div class="fact-list-element">
+        <div class="fact-list-key">
+            <p>Eye Color</p>
+        </div>
+        <div class="fact-list-value">
+            <p>{{characterData[2].eyeColor}}</p>
+        </div>
+    </div>
+    <div class="fact-list-element">
+        <div class="fact-list-key">
+            <p>Species</p>
+        </div>
+        <div class="fact-list-value">
+            <p>{{characterData[2].species}}</p>
+        </div>
+    </div>
+
+    <div class="character-detail-footer">
+        <div class="notes-section">
+            <h1>Notes:</h1>
+            <p>There are no notes to show.</p>
+        </div>
+    
+        <div class="pinterest-section">
+            <h1>Pinterest Board:</h1>
+            <p>There is no Pinterest board linked yet.</p>
+            <!--<kendo-avatar
+                  width="280px"
+                  height="280px"
+                  [imageSrc]="thumbnailSrc"
+                  shape="square"
+                >
+            </kendo-avatar>-->
+        </div>
+    </div>
+</div>
+
