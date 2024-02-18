@@ -10,10 +10,10 @@ const routes: Routes = [
     title: 'Character List'
   },
   {
-    path: 'detail',
+    path: 'details/:id',
     component: CharacterDetailComponent,
     title: 'Character Details'
-  }
+  },
 ];
 
 @NgModule({

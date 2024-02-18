@@ -5,11 +5,22 @@
   
 }
 */
+
 .content{
   margin-left: 10px;
 }
 
 .title {
+  color: white;
+  text-decoration: none;
+}
+
+.title:hover {
+  color: #d6d6d6;
+  text-decoration: none;
+}
+
+.title h1 {
   font-family: 'Playfair Display', 'Times New Roman', 'serif';
   font-weight: lighter;
 }

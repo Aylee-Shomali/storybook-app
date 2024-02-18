@@ -1,7 +1,7 @@
 {
     "characters": [
         {
-            "id": 1,
+            "id": 0,
             "name": "Luciana Castelucci",
             "photo": null,
             "age": null,
@@ -19,7 +19,7 @@
             "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/luciana-castelucci-vibes/"
         },
         {
-            "id": 2,
+            "id": 1,
             "name": "Dr. Clyde Fernsborough",
             "photo": null,
             "age": 59,
@@ -30,7 +30,7 @@
             "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/doctor-clyde-vibes/"
         },
         {
-            "id": 3,
+            "id": 2,
             "name": "Izabel Ramirez",
             "photo": null,
             "age": 22,
@@ -62,7 +62,7 @@
             "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/izabel-vibes/"
         },
         {
-            "id": 4,
+            "id": 3,
             "name": "Arwin Langford",
             "photo": null,
             "age": 126,
@@ -87,7 +87,7 @@
             "pinterestBoardURL": "https://www.pinterest.com/SquareBoysPhotography/arwin-langford-vibes/"
         },
         {
-            "id": 5,
+            "id": 4,
             "name": "Seville Livin/Esteban Rodriguez",
             "photo": null,
             "age": null,
