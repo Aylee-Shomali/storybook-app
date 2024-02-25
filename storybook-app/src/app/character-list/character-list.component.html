@@ -3,13 +3,21 @@
   <ng-container *ngFor="let character of characterData">
     <kendo-card width="270px">
       <kendo-card-header class="k-hstack">
-        <kendo-avatar
+        <kendo-avatar *ngIf="character.photo"
               width="230px"
               height="230px"
-              [imageSrc]="thumbnailSrc"
+              [imageSrc]="'../../assets/characterImages/' + character.photo"
               shape="circle"
             >
-          </kendo-avatar>
+        </kendo-avatar>
+        <!-- Display a default image if one if not available -->
+        <kendo-avatar *ngIf="!character.photo"
+              width="230px"
+              height="230px"
+              [imageSrc]="'../../assets/characterImages/' + noImageSrc"
+              shape="circle"
+            >
+        </kendo-avatar>
         </kendo-card-header>
         <kendo-card-body>
           <h1 kendoCardTitle>{{ character.name }}</h1>

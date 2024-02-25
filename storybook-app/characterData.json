@@ -21,7 +21,7 @@
         {
             "id": 1,
             "name": "Dr. Clyde Fernsborough",
-            "photo": null,
+            "photo": "Clyde.png",
             "age": 59,
             "eyeColor": "Brown",
             "species": "Vampire",
@@ -32,7 +32,7 @@
         {
             "id": 2,
             "name": "Izabel Ramirez",
-            "photo": null,
+            "photo": "Izabel.png",
             "age": 22,
             "eyeColor": "Brown",
             "species": "Human",
@@ -64,7 +64,7 @@
         {
             "id": 3,
             "name": "Arwin Langford",
-            "photo": null,
+            "photo": "Arwin.png",
             "age": 126,
             "eyeColor": "Brown",
             "species": "Vampire",
@@ -89,7 +89,7 @@
         {
             "id": 4,
             "name": "Seville Livin/Esteban Rodriguez",
-            "photo": null,
+            "photo": "Seville-Esteban.png",
             "age": null,
             "eyeColor": "Brown",
             "species": "Vampire",

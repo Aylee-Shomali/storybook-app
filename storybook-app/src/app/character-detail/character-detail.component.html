@@ -1,9 +1,16 @@
 <div class="detail-content">
     <div class="character-detail-header">
-        <kendo-avatar
+        <kendo-avatar *ngIf="character.photo"
                   width="280px"
                   height="280px"
-                  [imageSrc]="thumbnailSrc"
+                  [imageSrc]="'../../assets/characterImages/' + character.photo"
+                  shape="circle"
+                >
+        </kendo-avatar>
+        <kendo-avatar *ngIf="!character.photo"
+                  width="280px"
+                  height="280px"
+                  [imageSrc]="'../../assets/characterImages/' + noImageSrc"
                   shape="circle"
                 >
         </kendo-avatar>

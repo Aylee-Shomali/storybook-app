@@ -7,8 +7,7 @@ import { characters } from '../../../characterData.json';
   styleUrl: './character-list.component.css'
 })
 export class CharacterListComponent {
-  public thumbnailSrc =
-    "https://www.telerik.com/kendo-angular-ui-develop/components/layout/card/assets/rila.jpg";
+  public noImageSrc = "noImage.png";
 
   public characterData = characters;
 }

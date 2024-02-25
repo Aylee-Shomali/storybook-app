@@ -18,8 +18,7 @@ export class CharacterDetailComponent {
     this.character = characters[characterId];
   }
 
-    public thumbnailSrc =
-      "https://www.telerik.com/kendo-angular-ui-develop/components/layout/card/assets/rila.jpg";
+  public noImageSrc = "noImage.png";
 
-    public characterData = characters;
+  public characterData = characters;
 }
