@@ -45,7 +45,12 @@
     <div class="character-detail-footer">
         <div class="notes-section">
             <h1>Notes:</h1>
-            <p>There are no notes to show.</p>
+            <ng-container *ngIf="character.notes != null && character.notes.length == 0">
+                <p>There are no notes to show.</p>
+            </ng-container>
+            <ng-container *ngIf="character.notes">
+                <app-note-list [noteList]="character.notes"></app-note-list>
+            </ng-container>    
         </div>
     
         <div class="pinterest-section">

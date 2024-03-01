@@ -1,0 +1,18 @@
+<div class="card-container">
+  <ng-container *ngFor="let note of noteList">
+    <kendo-card width="270px">
+      <kendo-card-header class="k-hstack">
+        <h1 kendoCardTitle><strong> {{ note.title }} </strong></h1>
+      </kendo-card-header>
+        <kendo-card-body>
+          <div class="centered-container">
+            <p> {{ note.content }} </p>
+          </div>
+        </kendo-card-body>
+        <kendo-card-footer class="k-hstack">
+          <p><strong>Created:</strong> {{ note.dateCreated }}</p>
+          <p><strong>Edited:</strong> {{ note.dateModified }}</p>
+        </kendo-card-footer>
+    </kendo-card>
+  </ng-container>
+</div>

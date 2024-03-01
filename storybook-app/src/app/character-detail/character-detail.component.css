@@ -19,6 +19,7 @@
 
 .character-detail-footer {
     margin-top: 2%;
+    margin-bottom: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
