@@ -27,9 +27,9 @@ import { InputsModule } from '@progress/kendo-angular-inputs';
     ButtonsModule,
     NavigationModule,
     InputsModule,
-    IconsModule,
+    IconsModule
   ],
   providers: [],
-  bootstrap: [AppComponent, CharacterListComponent, CharacterDetailComponent, NoteListComponent]
+  bootstrap: [AppComponent]
 })
 export class AppModule { }

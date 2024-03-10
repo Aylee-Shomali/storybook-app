@@ -60,3 +60,7 @@ h1, p {
     border-radius: 0px 10px 10px 0px;
     flex: 60%;
 }
+
+.hidden {
+    display: none;
+  }

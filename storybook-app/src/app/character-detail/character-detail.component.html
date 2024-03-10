@@ -44,7 +44,7 @@
 
     <div class="character-detail-footer">
         <div class="notes-section">
-            <h1>Notes:</h1>
+            <h1><span class="k-icon k-icon-xxl k-font-icon k-i-dictionary-add"></span> Notes:</h1>
             <ng-container *ngIf="character.notes != null && character.notes.length == 0">
                 <p>There are no notes to show.</p>
             </ng-container>
@@ -54,15 +54,14 @@
         </div>
     
         <div class="pinterest-section">
-            <h1>Pinterest Board:</h1>
-            <p>There is no Pinterest board linked yet.</p>
-            <!--<kendo-avatar
-                  width="280px"
-                  height="280px"
-                  [imageSrc]="thumbnailSrc"
-                  shape="square"
-                >
-            </kendo-avatar>-->
+            <h1><span class="k-icon k-icon-xxl k-font-icon k-i-pinterest"></span> Pinterest Board:</h1>
+            <p *ngIf="character.pinterestBoardURL == null ">There is no Pinterest board linked yet.</p>
+            <ng-container *ngIf="character.pinterestBoardURL != null">
+                <button class="hidden" kendoButton fillMode="flat" (click)="forceReload()" >Board Preview is loading... click to refresh</button>
+                <a class="k-button k-button-md" [href]="character.pinterestBoardURL" target="_blank">Go to Board</a>
+                <br/>
+                <a data-pin-do="embedBoard" data-pin-board-width="550" data-pin-scale-height="240" data-pin-scale-width="80" [href]="character.pinterestBoardURL"></a>
+            </ng-container>
         </div>
     </div>
 </div>
