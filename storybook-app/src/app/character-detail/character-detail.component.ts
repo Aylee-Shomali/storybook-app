@@ -32,7 +32,6 @@ export class CharacterDetailComponent {
     let refreshButton = document.querySelector(".pinterest-section button");
     let pinWidget = document.querySelector(".pinterest-section a:first-of-type + br + a");
 
-    console.log(`pinWidget: ${pinWidget?.tagName}`);
     if(pinWidget?.tagName != undefined){
       refreshButton?.classList.remove('hidden');
     } else {
