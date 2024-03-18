@@ -1,15 +1,12 @@
 {
   "name": "storybook-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-  },
-  "engines": {
-      "node": "20.11.0"
   },
   "private": true,
   "dependencies": {
@@ -24,7 +21,6 @@
     "@angular/router": "^17.1.0",
     "@progress/kendo-angular-buttons": "14.3.0",
     "@progress/kendo-angular-common": "14.3.0",
-    "@progress/kendo-angular-dateinputs": "^14.3.0",
     "@progress/kendo-angular-dialog": "14.3.0",
     "@progress/kendo-angular-icons": "14.3.0",
     "@progress/kendo-angular-inputs": "14.3.0",
@@ -40,7 +36,6 @@
     "@progress/kendo-licensing": "^1.3.5",
     "@progress/kendo-svg-icons": "^2.0.0",
     "@progress/kendo-theme-default": "^7.0.2",
-    "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
