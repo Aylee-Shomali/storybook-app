@@ -1,6 +1,7 @@
 # StorybookApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Project created during CS469 at Oregon State University.
+Link to hosted project: https://blue-sea-0af2ded10.5.azurestaticapps.net/
 
 ## Development server
 
